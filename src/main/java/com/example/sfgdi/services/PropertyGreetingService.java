@@ -4,12 +4,13 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author Alexander Verkhoturkin
- * @created 24/06/2020 - 16:38
+ * @created 24/06/2020 - 17:02
  */
 @Service
-public class GreetingServiceImpl implements GreetingService {
+public class PropertyGreetingService implements GreetingService {
+
     @Override
     public String sayGreeting() {
-        return "Hello World";
+        return "Hello World - Property";
     }
 }
